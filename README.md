@@ -1,16 +1,15 @@
-#Teste de conhecimento
+### Teste de conhecimento
 CRUD de uma página de Perguntas
-### Pré-requisitos
+### Ferramenta Utilizada
 
 Utilizei o [Xampp] para ter acesso ao banco de dados
-
 
 ### 🎲 Rodando o Back End (servidor)
 
 ```bash
 - Crie um banco de Dados MySql
 - Import o arquivo research.sql
-- Altere na linha #3 do arquivo action.php para suas configurações do banco de dados 
+- Altere na linha 3 do arquivo action.php para suas configurações do banco de dados 
 
 ```
 
