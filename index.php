@@ -39,7 +39,7 @@
         <nav class="navbar navbar-light  ">
           <h1 class=" mb-0">Tarefa</h1>
           <div class="d-flex d-grid gap-2 d-md-block">
-            <button class="btn btn-light" @click="openModel" value="Add">Dimensões</button>
+            <!-- <button class="btn btn-light" @click="openModel" value="Add">Dimensões</button> -->
             <button class="btn btn-primary" @click="openModel" value="Add">+ Criar pergunta</button>
           </div>
         </nav>
