@@ -1,17 +1,8 @@
 <?php
 
-$connect = new PDO("mysql:host=localhost;dbname=research", "root", "");
+$connect = new PDO("mysql:host=localhost; dbname=research", "root", "");
 $received_data = json_decode(file_get_contents("php://input"));
 $data = array();
-
-
-// $conn = mysqli_connect('localhost', 'root', '', 'research');
-// if($con->connect_error){
-//   die("Connection Failed">$con->connect_error);
-// }
-// $result = array('error'=>false);
-// $received_data = json_decode(file_get_contents("php://input"));
-// $data = array();
 
 
 if($received_data->action == 'fetchallQuestion'){
